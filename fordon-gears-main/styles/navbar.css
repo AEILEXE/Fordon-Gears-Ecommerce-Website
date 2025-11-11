@@ -1,0 +1,141 @@
+/* Your CSS styles */
+nav {
+    padding: 0 20px 0 20px;
+    height: 80px;
+    background: #011425;
+    border-bottom: 1px solid rgb(93, 93, 93);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+
+  nav .left a, nav .mid a, nav .right a{
+    text-decoration: none;
+    color: white;
+  }
+
+  nav .mid a{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  nav i {
+    cursor: pointer;
+  }
+
+  nav .right {
+    display: flex;
+    gap: 14px;
+  }
+
+  nav .right .login {
+    display: none;
+  }
+
+  nav div {
+    color: white;
+  }
+
+  nav .left {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    right: 0;
+    background: #011425;
+    text-align: center;
+    line-height: 40px;
+    gap: 10px;
+    z-index: 1000;
+    transition: 0.3s ease;
+    height: 0;
+    overflow: hidden;
+  }
+
+  #bar {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-size: 20px;
+  }
+
+  nav .left i {
+    display: none;
+  }
+
+  nav .mid{
+    margin-left: 40px;
+  }
+
+
+  nav .left a:hover div{
+    background: #0d2539;
+  }
+
+  nav .left div, nav .right a{
+    border: 1px solid #011425;
+  }
+
+  @media (min-width: 768px) {
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px 0 20px;
+      height: 80px;
+    }
+
+    nav .left,
+    nav .mid,
+    nav .right {
+      display: flex;
+      align-items: center;
+    }
+
+    nav .right .login{
+      display: block;
+      cursor: pointer;
+    }
+
+    #bar{
+      display: none;
+    }
+
+    nav .left{
+      height: max-content;
+      position: static;
+      line-height: 20px;
+      overflow: visible;
+      gap: 20px;
+    }
+
+    nav .left a:hover div, nav .right a:hover{
+      background: none;
+      border-bottom: 1px solid lightgray;
+    }
+
+    nav .left .login{
+      display: none;
+    }
+
+    nav .left i{
+      display: block;
+    }
+
+    nav .mid{
+      margin-left: -100px;
+    }
+  }
+
+  @media (min-width: 900px) {
+    nav .mid{
+      margin-left: -150px;
+    }
+  }

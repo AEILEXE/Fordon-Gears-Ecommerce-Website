@@ -71,14 +71,5 @@ Contributions are welcome! If you’d like to help improve the project (e.g. add
 * Push to your branch: `git push origin feature/your-feature`
 * Open a pull request — we’ll review and merge as appropriate.
 
-## 📝 To Do / Future Enhancements
-
-* Add real backend / database to store products, orders, user accounts.
-* Implement user authentication (sign-up / sign-in).
-* Add search, filtering, and product categories.
-* Improve cart & checkout functionality.
-* Add payment gateway integration.
-* Make UI more dynamic and interactive (animations, transitions, feedback).
-
 
 [1]: https://github.com/AEILEXE/Fordon-Gears-Ecommerce-Website/tree/main/fordon-gears-main "Fordon-Gears-Ecommerce-Website/fordon-gears-main at main · AEILEXE/Fordon-Gears-Ecommerce-Website · GitHub"

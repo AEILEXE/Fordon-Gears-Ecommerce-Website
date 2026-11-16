@@ -7,38 +7,37 @@ Try the live website here: [https://final-fordon-gears.netlify.app/](https://fin
 
 ## 📄 Overview
 
-Fordon Gears is a responsive, front-end e-commerce website implemented using HTML, CSS and (optionally) JavaScript. It provides a complete shopping-site experience — with product listing, shopping cart, navigation, and a clean user interface.
+Fordon Gears is a responsive, front-end e-commerce website prototype for an automotive store, built with HTML5 and CSS3. It presents a multi-page shopping-site experience (home, shop, product categories, cart, checkout, account, and information pages) as a static user-interface design.
 
-This project aims to demonstrate a simple yet functional online store layout, suitable for showcasing products and enabling users to browse, add to cart, and review offerings.
+This was an academic team project (team "3D Technology"), which received the Best Project in Web Development award in May 2024.
 
 ## 🧰 Features
 
-* Responsive design — works on desktop, tablet, and mobile devices.
-* Product listing / catalog display.
-* Product detail or product card layout (as per design).
-* Navigation menu (home, shop, sign in, etc.).
-* Shopping cart / add-to-cart functionality (if implemented).
-* Clean UI / UX design for easy browsing and shopping.
+* Responsive layout for desktop, tablet, and mobile screens.
+* Product catalog pages for cars, motorcycles, and accessories.
+* Static page designs for the shopping cart, payment, shipping, saved items, login, account creation, and password reset.
+* Information pages: About Us, Contact Us, FAQs, Reviews, Terms, and Privacy Policy.
+* Mobile navigation menu toggle (`js/navbar.js`).
+
+> **Scope note:** This is a front-end UI prototype. "Add to Cart", login, and checkout are page designs only; there is no cart logic, backend, database, or payment processing.
 
 ## 📦 Technologies Used
 
-* HTML5 — main structure and content. ([GitHub][1])
-* CSS3 — styling and layout. ([GitHub][1])
-* (Optional) JavaScript — for interactivity, cart management, etc., depending on implementation.
+* HTML5 — page structure and content.
+* CSS3 — styling and responsive layout.
+* JavaScript — a small script for the mobile navigation menu only.
 
 ## 📁 Project Structure
 
 ```
 fordon-gears-main/
-│
-├── index.html        # Home / main entry point
-├── styles/           # CSS / styling files
-├── images/           # Static assets: product images, icons, etc.
-├── js/               # (Optional) JavaScript files for interactivity
-└── assets/           # Other assets (fonts, icons, etc.)
+├── index.html      # Home page
+├── components/     # Shop, category, cart, checkout, account, and info pages
+├── styles/         # CSS files
+├── imgs/           # Product and site images
+└── js/
+    └── navbar.js   # Mobile navigation toggle
 ```
-
-> *Note:* The actual folder names may differ — adjust according to your project's structure.
 
 ## ✅ Usage / Running Locally
 
@@ -55,7 +54,7 @@ To view or develop this project locally:
    cd Fordon-Gears-Ecommerce-Website/fordon-gears-main
    ```
 3. Open `index.html` in your web browser.
-4. (Optional) If there’s JS that uses modules or relative paths, consider using a local server (e.g. VSCode’s Live Server or `python -m http.server`) for a smoother dev experience.
+4. (Optional) Serve the folder with a local server, such as VS Code Live Server or `python -m http.server`.
 
 ## 📐 Browser Support & Responsiveness
 
@@ -72,4 +71,3 @@ Contributions are welcome! If you’d like to help improve the project (e.g. add
 * Open a pull request — we’ll review and merge as appropriate.
 
 
-[1]: https://github.com/AEILEXE/Fordon-Gears-Ecommerce-Website/tree/main/fordon-gears-main "Fordon-Gears-Ecommerce-Website/fordon-gears-main at main · AEILEXE/Fordon-Gears-Ecommerce-Website · GitHub"
